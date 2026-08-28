@@ -2,24 +2,28 @@
 
 A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**.
 
-This project provides a clean game interface where two players can take turns placing **O** and **X** on a 3×3 game board. The game automatically checks the winning patterns and displays the winner when a player wins.
+Play the game online and enjoy a classic two-player experience with automatic turn switching and winner detection.
+
+## 🌐 Live Demo
+
+🎮 **[Play Tic Tac Toe](https://rahul-codex.github.io/tic-tac-toe-game/)**
 
 ## ✨ Features
 
-* 🎯 Simple and interactive 3×3 game board
+* 🎯 Interactive 3×3 game board
 * 👥 Two-player gameplay
-* 🔄 Automatic turn switching between O and X
+* 🔄 Automatic turn switching between **O** and **X**
 * 🏆 Automatic winner detection
-* 🎉 Winner message displayed after winning
-* 🔁 **New Game** button
-* ♻️ **Reset Game** button
-* 📱 Responsive layout using CSS viewport units
+* 🎉 Winner message when a player wins
+* 🔁 New Game functionality
+* ♻️ Reset Game functionality
+* 📱 Responsive layout
 
 ## 🛠️ Technologies Used
 
-* **HTML5** — Structure of the game
-* **CSS3** — Styling and responsive layout
-* **JavaScript** — Game logic, turns, and winner detection
+* **HTML5** — Game structure
+* **CSS3** — Styling and responsive design
+* **JavaScript** — Game logic and winner detection
 
 ## 📂 Project Structure
 
@@ -34,17 +38,17 @@ tic-tac-toe-game/
 
 ## 🎮 How to Play
 
-1. Open the game in your browser.
+1. Open the game using the **Live Demo** link.
 2. Player 1 starts with **O**.
 3. Player 2 plays with **X**.
 4. Players take turns selecting an empty box.
 5. The game checks the winning combinations after every move.
-6. The player who completes a winning combination wins the game.
-7. Click **New Game** or **Reset Game** to start again.
+6. Complete a row, column, or diagonal with the same symbol to win.
+7. Use **New Game** or **Reset Game** to play again.
 
 ## 🧠 Game Logic
 
-The game uses predefined winning patterns to check whether three matching symbols are placed in a winning position.
+The game uses predefined winning patterns to determine the winner.
 
 The winning patterns include:
 
@@ -52,33 +56,29 @@ The winning patterns include:
 * Columns
 * Diagonals
 
-JavaScript checks these patterns after each move and displays the winner when a valid combination is found.
+After each move, JavaScript checks these patterns. If three matching symbols are found in a valid pattern, the winner is displayed.
 
-## 🚀 Run the Project Locally
+## 🚀 Run Locally
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/rahul-codex/tic-tac-toe-game.git
 ```
 
 ### 2. Open the project
 
-Open the project folder in **VS Code**.
+Open the cloned folder in **VS Code**.
 
 ### 3. Run the game
 
 Open `index.html` in your browser.
 
-You can also use the **Live Server** extension in VS Code for a better development experience.
+You can also use the **Live Server** extension in VS Code.
 
 ## 📸 Preview
 
-Add a screenshot or GIF of your game here after uploading one to the repository.
-
-```text
-[ Add your game screenshot here ]
-```
+A screenshot of the game will be added here.
 
 ## 📚 What I Learned
 
@@ -95,12 +95,10 @@ While building this project, I practiced:
 
 ## 🔮 Future Improvements
 
-Possible improvements for future versions:
-
 * 🤖 Add a computer/AI opponent
 * 🏅 Add score tracking
 * 🌙 Add dark/light mode
-* 🔊 Add game sound effects
+* 🔊 Add sound effects
 * 🎨 Add more UI animations
 * 📊 Add player statistics
 
@@ -108,8 +106,8 @@ Possible improvements for future versions:
 
 **Rahul**
 
-Built with ❤️ using HTML, CSS and JavaScript.
+Built with ❤️ using **HTML, CSS, and JavaScript**.
 
 ---
 
-⭐ If you like this project, consider giving the repository a star!
+⭐ If you enjoyed this project, consider giving the repository a star!
