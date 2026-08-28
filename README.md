@@ -78,7 +78,7 @@ You can also use the **Live Server** extension in VS Code.
 
 ## 📸 Preview
 
-A screenshot of the game will be added here.
+![Tic Tac Toe Game Preview](./tic-tac-toe-preview)
 
 ## 📚 What I Learned
 
